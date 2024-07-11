@@ -1,0 +1,37 @@
+body,
+html {
+    text-align: center;
+    margin: 0;
+    background-color: rgb(212, 207, 199);
+}
+.sticky {
+    background-color: rgb(212, 207, 199);
+    position: sticky;
+    top: 0;
+    width: 50%;
+    border-radius: 10%;
+    opacity: 70%;
+}
+.stuck {
+    background-color: rgb(212, 207, 199);
+    position:fixed;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    border-radius: 10%;
+    opacity: 70%;
+    margin-bottom: 0;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap; 
+}
+.container > * {
+    height:40vh;
+    flex-grow: 1;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit:cover;
+}
